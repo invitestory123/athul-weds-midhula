@@ -71,9 +71,9 @@ export function Couple() {
                       src={wedding.groom.image}
                       alt={wedding.groom.fullName}
                       loading="lazy"
-                      width={768}
-                      height={896}
-                      className="h-full w-full rounded-full object-cover object-top"
+                      width={500}
+                      height={500}
+                      className="h-full w-full rounded-full object-cover object-center"
                     />
                   </div>
 
@@ -145,9 +145,9 @@ export function Couple() {
                       src={wedding.bride.image}
                       alt={wedding.bride.fullName}
                       loading="lazy"
-                      width={768}
-                      height={896}
-                      className="h-full w-full rounded-full object-cover object-top"
+                      width={500}
+                      height={500}
+                      className="h-full w-full rounded-full object-cover object-center"
                     />
                   </div>
 
