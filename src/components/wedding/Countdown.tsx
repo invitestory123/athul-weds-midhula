@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { wedding } from "./data";
 import { Reveal, Ornament } from "./Reveal";
 
-const TARGET = new Date(wedding.dateISO).getTime();
+const TARGET = new Date(wedding.events.reception.dateISO).getTime();
 
 function diff() {
   const ms = Math.max(0, TARGET - Date.now());
@@ -64,7 +64,7 @@ export function Countdown() {
         <Reveal>
           <Ornament label="Counting down" />
           <h2 className="text-ivory mt-5 text-4xl font-light">
-            Until we say <span className="font-script text-gold-foil">forever</span>
+            Until the <span className="font-script text-gold-foil">Reception</span>
           </h2>
         </Reveal>
 
@@ -78,9 +78,9 @@ export function Countdown() {
         </Reveal>
 
         <Reveal delay={0.2}>
-          <div className="mt-6 flex flex-col items-center gap-1 text-ivory/65 text-xs tracking-[0.2em] uppercase">
-            <p className="text-gold-soft font-medium">05 December 2026 · Kasaragod</p>
-            <p className="text-ivory/50 text-[0.65rem]">06 December 2026 · Kozhikode</p>
+          <div className="mt-6 flex flex-col items-center gap-1 text-ivory/70 text-xs tracking-[0.2em] uppercase">
+            <p className="text-gold-soft font-medium">Sunday, 06 December 2026</p>
+            <p className="text-ivory/60 text-[0.68rem]">4:00 PM onwards · Kozhikode</p>
           </div>
         </Reveal>
       </div>

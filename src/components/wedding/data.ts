@@ -11,7 +11,7 @@ export const wedding = {
     phone: "9656277797",
     phoneDisplay: "+91 96562 77797",
     note: "Son of Late. Shri. Radhakrishnan T & Smt. Mini K M, Abhayam House, Atholi, Kozhikode.",
-    image: "/images/groom-photo.jpg",
+    image: "/images/groom-photo.png",
   },
   bride: {
     name: "Midhula",
@@ -19,23 +19,21 @@ export const wedding = {
     title: "The Bride",
     parents: "Shri. E. Balakrishnan & Smt. Savitha A",
     lineageText: "D/O Shri. E. Balakrishnan & Smt. Savitha A",
-    note: "Daughter of Shri. E. Balakrishnan & Smt. Savitha A.",
-    image: "/images/bride-photo.jpg",
+    address: "Sreenilayam House, Cheralam, Kalichanadukkam Post, Kasaragod",
+    note: "Daughter of Shri. E. Balakrishnan & Smt. Savitha A, Sreenilayam House, Cheralam, Kasaragod.",
+    image: "/images/bride-photo.png",
   },
   hosts: {
     names: "Late. Shri. Radhakrishnan T & Smt. Mini K M",
     address: "Abhayam House, Cheekkilode Post, Atholi, Kozhikode, 673315",
-    phone: "9656277797",
-    phoneDisplay: "+91 96562 77797",
+    phone: "8129913911",
+    phoneDisplay: "+91 81299 13911",
   },
   sharingHappiness: "Ayana, Jithin, Family & Friends",
-  giftPolicy: "No Gifts, Only Blessings",
-  blessingQuote:
-    "As the couple begins their journey of love and togetherness, we would be deeply honoured by your presence to bless them, share in our happiness, and make this evening truly unforgettable.",
 
-  // Primary event dates
-  dateISO: "2026-12-05T11:00:00+05:30",
-  dateLabel: "5 & 6 December 2026",
+  // Primary event date (Wedding Reception)
+  dateISO: "2026-12-06T16:00:00+05:30",
+  dateLabel: "06 December 2026",
 
   // Specific Events
   events: {

@@ -70,23 +70,25 @@ export function Hero() {
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.9 }}
-            className="text-gold-soft/90 text-[0.62rem] tracking-[0.35em] uppercase"
+            className="text-gold-soft/90 text-[0.62rem] tracking-[0.35em] uppercase font-medium"
           >
-            Wedding &amp; Reception Invitation
+            Wedding Reception Invitation
           </motion.p>
 
           <motion.h1
             initial={{ opacity: 0, y: 24, filter: "blur(8px)" }}
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{ delay: 0.45, duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
-            className="mt-4 flex flex-col items-center leading-[0.88]"
+            className="mt-4 flex flex-col items-center leading-[0.9]"
           >
-            <span className="text-gold-foil font-display text-[3.8rem] font-light tracking-tight sm:text-[4.25rem]">
-              {wedding.groom.fullName}
+            <span className="text-gold-foil font-serif-luxe text-[3.8rem] sm:text-[4.4rem] font-medium tracking-normal drop-shadow-sm">
+              Athul
             </span>
-            <span className="font-script text-gold/85 my-1 text-3xl font-normal">with</span>
-            <span className="text-gold-foil font-display text-[3.8rem] font-light tracking-tight sm:text-[4.25rem]">
-              {wedding.bride.fullName}
+            <span className="font-script text-gold/90 my-1 text-3xl sm:text-4xl font-normal drop-shadow">
+              with
+            </span>
+            <span className="text-gold-foil font-serif-luxe text-[3.8rem] sm:text-[4.4rem] font-medium tracking-normal drop-shadow-sm">
+              Midhula
             </span>
           </motion.h1>
 
@@ -103,21 +105,21 @@ export function Hero() {
             transition={{ delay: 1.05, duration: 0.9 }}
             className="text-ivory/90 mt-4 text-xs tracking-[0.32em] uppercase font-medium"
           >
-            05 &amp; 06 · December · 2026
+            06 · December · 2026
           </motion.p>
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.25, duration: 0.9 }}
-            className="text-ivory/65 mt-1 text-[0.68rem] tracking-[0.25em] uppercase"
+            className="text-ivory/70 mt-1 text-[0.68rem] tracking-[0.25em] uppercase"
           >
-            Kozhikode &amp; Kasaragod · Kerala
+            Kozhikode · Kerala
           </motion.p>
         </motion.div>
 
         <motion.img
           src="/images/couple-transparent.png"
-          alt="Athul Krishna & Midhula Balan"
+          alt="Athul with Midhula"
           width={699}
           height={1024}
           initial={{ opacity: 0, y: 40, scale: 0.96 }}

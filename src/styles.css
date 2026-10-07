@@ -52,6 +52,8 @@
   --color-rose-wine: var(--rose-wine);
   --color-ivory: var(--ivory);
   --font-display: "Cormorant Garamond", ui-serif, Georgia, serif;
+  --font-serif-luxe: "Playfair Display", Georgia, serif;
+  --font-cinzel: "Cinzel", Georgia, serif;
   --font-script: "Great Vibes", cursive;
   --font-sans: "Jost", ui-sans-serif, system-ui, sans-serif;
 }

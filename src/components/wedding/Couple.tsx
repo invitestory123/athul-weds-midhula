@@ -30,27 +30,6 @@ export function Couple() {
           </p>
         </Reveal>
 
-        {/* Full Couple Portrait Frame */}
-        <Reveal delay={0.05} className="mt-8 mb-6">
-          <div className="relative mx-auto max-w-xs overflow-hidden rounded-[2.5rem] border-2 border-gold/40 bg-card p-2.5 shadow-luxe">
-            <div className="relative aspect-[3/4] overflow-hidden rounded-[2rem]">
-              <img
-                src="/images/couple.jpg"
-                alt="Athul Krishna & Midhula Balan"
-                className="h-full w-full object-cover object-top"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-emerald-ink/80 via-transparent to-transparent" />
-              <div className="absolute inset-x-0 bottom-4 text-center px-4">
-                <p className="font-script text-gold-foil text-3xl font-normal drop-shadow-md">
-                  Athul &amp; Midhula
-                </p>
-                <p className="text-ivory/80 text-[0.62rem] tracking-[0.3em] uppercase mt-0.5 font-light">
-                  Together Forever
-                </p>
-              </div>
-            </div>
-          </div>
-        </Reveal>
 
         <div className="mt-8 space-y-8">
           {/* Groom Card */}
@@ -167,6 +146,14 @@ export function Couple() {
                   <p className="text-foreground/75 text-sm leading-relaxed px-2">
                     Stepping into a lifetime of love, warmth, and shared happiness alongside Athul.
                   </p>
+
+                  {/* Residence */}
+                  <div className="mt-4 flex flex-col items-center gap-1.5 text-xs text-muted-foreground">
+                    <p className="flex items-center gap-1.5 text-center">
+                      <MapPin className="text-gold h-3.5 w-3.5 shrink-0" />
+                      <span>{wedding.bride.address}</span>
+                    </p>
+                  </div>
                 </div>
               </div>
             </Reveal>

@@ -1,4 +1,4 @@
-import { CalendarPlus, Clock, Heart, MapPin, Navigation, Sparkles } from "lucide-react";
+import { CalendarPlus, Clock, MapPin, Navigation, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { wedding } from "./data";
@@ -53,16 +53,6 @@ export function EventDetails() {
           <p className="text-muted-foreground mx-auto mt-2 text-xs tracking-wider uppercase">
             Two days of sacred traditions and joy
           </p>
-        </Reveal>
-
-        {/* Blessing Quote Banner from the Card */}
-        <Reveal delay={0.08}>
-          <div className="border-gold/30 bg-card/60 shadow-luxe mt-8 rounded-[1.75rem] border p-6 text-center backdrop-blur-sm">
-            <Heart className="text-gold mx-auto mb-3 h-5 w-5 fill-current opacity-70" />
-            <p className="font-display text-foreground/85 text-base sm:text-lg italic leading-relaxed">
-              &ldquo;{wedding.blessingQuote}&rdquo;
-            </p>
-          </div>
         </Reveal>
 
         {/* Tab Switcher */}
