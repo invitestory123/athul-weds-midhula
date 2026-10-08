@@ -91,6 +91,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Athul Krishna & Midhula Balan cordially invite you to celebrate their wedding reception on 06 December 2026 at Kozhikode.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://athul-weds-midhula.inviteby.top/" },
+      { property: "og:logo", content: "https://athul-weds-midhula.inviteby.top/logo.png" },
       { property: "og:image", content: "/og-image.png" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },

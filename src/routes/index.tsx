@@ -22,6 +22,8 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://athul-weds-midhula.inviteby.top/" },
+      { property: "og:logo", content: "https://athul-weds-midhula.inviteby.top/logo.png" },
       { property: "og:image", content: "/og-image.png" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
