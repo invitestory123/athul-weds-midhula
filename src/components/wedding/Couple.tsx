@@ -52,7 +52,7 @@ export function Couple() {
                       loading="lazy"
                       width={500}
                       height={500}
-                      className="h-full w-full rounded-full object-cover object-center"
+                      className="h-full w-full rounded-full object-cover object-top"
                     />
                   </div>
 
