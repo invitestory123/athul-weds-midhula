@@ -24,12 +24,12 @@ export const wedding = {
     image: "/images/bride-photo.png",
   },
   hosts: {
-    names: "Late. Shri. Radhakrishnan T & Smt. Mini K M",
-    address: "Abhayam House, Cheekkilode Post, Atholi, Kozhikode, 673315",
+    names: "Athul & Midhula",
+    address: "",
     phone: "8129913911",
     phoneDisplay: "+91 81299 13911",
   },
-  sharingHappiness: "Ayana, Jithin, Family & Friends",
+  sharingHappiness: "",
 
   // Primary event date (Wedding Reception)
   dateISO: "2026-12-06T16:00:00+05:30",

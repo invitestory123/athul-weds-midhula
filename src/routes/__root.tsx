@@ -77,31 +77,31 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Athul Krishna & Midhula Balan · Wedding Invitation" },
+      { title: "Athul Krishna & Midhula Balan · Wedding Reception Invitation" },
       {
         name: "description",
         content:
-          "Late. Shri. Radhakrishnan T & Smt. Mini K M cordially invite you to celebrate the marriage and reception of Athul Krishna with Midhula Balan on 5 & 6 December 2026.",
+          "Athul Krishna & Midhula Balan cordially invite you to celebrate their wedding reception on 06 December 2026 at Kozhikode.",
       },
       { name: "author", content: "InviteStory" },
-      { property: "og:title", content: "Athul Krishna & Midhula Balan · Wedding Invitation" },
+      { property: "og:title", content: "Athul Krishna & Midhula Balan · Wedding Reception Invitation" },
       {
         property: "og:description",
         content:
-          "Late. Shri. Radhakrishnan T & Smt. Mini K M cordially invite you to celebrate the marriage and reception of Athul Krishna with Midhula Balan on 5 & 6 December 2026.",
+          "Athul Krishna & Midhula Balan cordially invite you to celebrate their wedding reception on 06 December 2026 at Kozhikode.",
       },
       { property: "og:type", content: "website" },
       { property: "og:image", content: "/og-image.png" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
-      { property: "og:image:alt", content: "Athul Krishna & Midhula Balan Wedding Invitation" },
+      { property: "og:image:alt", content: "Athul Krishna & Midhula Balan Wedding Reception Invitation" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@invitestory.in" },
-      { name: "twitter:title", content: "Athul Krishna & Midhula Balan · Wedding Invitation" },
+      { name: "twitter:title", content: "Athul Krishna & Midhula Balan · Wedding Reception Invitation" },
       {
         name: "twitter:description",
         content:
-          "Late. Shri. Radhakrishnan T & Smt. Mini K M cordially invite you to celebrate the marriage and reception of Athul Krishna with Midhula Balan on 5 & 6 December 2026.",
+          "Athul Krishna & Midhula Balan cordially invite you to celebrate their wedding reception on 06 December 2026 at Kozhikode.",
       },
       { name: "twitter:image", content: "/og-image.png" },
 

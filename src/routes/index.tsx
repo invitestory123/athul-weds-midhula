@@ -12,7 +12,7 @@ import { ScrollProgress } from "@/components/wedding/ScrollProgress";
 
 const title = "Athul with Midhula · Wedding Reception Invitation";
 const description =
-  "Late. Shri. Radhakrishnan T & Smt. Mini K M cordially invite you to celebrate the wedding reception of Athul with Midhula on 06 December 2026 at Kozhikode.";
+  "Athul Krishna & Midhula Balan cordially invite you to celebrate their wedding reception on 06 December 2026 at Kozhikode.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

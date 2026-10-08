@@ -64,7 +64,7 @@ export function Opener({ onOpen }: { onOpen: () => void }) {
           >
             <GaneshaIcon className="text-gold mb-3 h-8 w-8 drop-shadow-[0_2px_10px_rgba(234,179,8,0.35)]" />
             <span className="text-gold/80 text-[0.55rem] tracking-[0.5em] uppercase">
-              A wedding invitation
+              Wedding Reception Invitation
             </span>
             <h1 className="text-gold-foil font-display mt-4 text-5xl leading-none font-light sm:text-6xl">
               {wedding.groom.name}

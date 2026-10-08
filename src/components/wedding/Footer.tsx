@@ -53,11 +53,9 @@ export function Footer() {
             <p className="text-gold-soft/80 text-[0.62rem] tracking-[0.35em] uppercase font-medium">
               Warmly Invited by
             </p>
-            <p className="text-ivory font-display mt-2 text-xl font-light">
-              {wedding.hosts.names}
-            </p>
-            <p className="text-ivory/65 mt-1.5 text-xs max-w-xs mx-auto leading-relaxed">
-              {wedding.hosts.address}
+            <p className="text-ivory font-display mt-2 text-2xl sm:text-3xl font-light">
+              {wedding.groom.name} <span className="font-script text-gold">&amp;</span>{" "}
+              {wedding.bride.name}
             </p>
 
             <div className="mt-5 flex items-center justify-center gap-3">
@@ -78,27 +76,14 @@ export function Footer() {
                 <span>WhatsApp</span>
               </a>
             </div>
-
-            <div className="mt-5 pt-4 border-t border-gold/15">
-              <p className="text-gold-soft/80 text-[0.58rem] tracking-[0.35em] uppercase">
-                Sharing Happiness
-              </p>
-              <p className="text-ivory font-display mt-1 text-base font-light">
-                {wedding.sharingHappiness}
-              </p>
-            </div>
           </div>
         </Reveal>
 
-        {/* Names & Signature */}
+        {/* Date & Location Footer */}
         <Reveal delay={0.2}>
-          <div className="mt-10 flex flex-col items-center">
+          <div className="mt-8 flex flex-col items-center">
             <span className="rule-gold w-28" />
-            <p className="text-ivory font-display mt-6 text-3xl font-light">
-              {wedding.groom.name} <span className="font-script text-gold">&amp;</span>{" "}
-              {wedding.bride.name}
-            </p>
-            <p className="text-ivory/60 mt-2 text-[0.62rem] tracking-[0.35em] uppercase">
+            <p className="text-ivory/60 mt-4 text-[0.62rem] tracking-[0.35em] uppercase">
               06 December 2026 · Kozhikode, Kerala
             </p>
           </div>

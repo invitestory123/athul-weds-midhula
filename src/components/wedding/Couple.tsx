@@ -70,7 +70,7 @@ export function Couple() {
                   {/* Contact */}
                   <a
                     href={`tel:${wedding.groom.phone}`}
-                    className="text-primary hover:text-gold mt-3 inline-flex items-center gap-1.5 text-xs font-medium transition-colors"
+                    className="text-primary hover:text-gold mt-3 inline-flex items-center gap-1.5 text-xs font-normal transition-colors"
                   >
                     <Phone className="text-gold h-3.5 w-3.5" />
                     <span>Ph: {wedding.groom.phoneDisplay}</span>
