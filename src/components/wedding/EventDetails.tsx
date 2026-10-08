@@ -60,7 +60,7 @@ export function EventDetails() {
           <div className="bg-card/85 border-gold/30 shadow-luxe relative overflow-hidden rounded-[1.75rem] border p-6 text-center backdrop-blur-sm">
             <Heart className="mx-auto h-4 w-4 fill-gold text-gold" />
             <p className="text-foreground/85 font-serif-luxe italic mt-3 text-sm sm:text-base leading-relaxed px-1 font-normal">
-              As the couple begins their journey of love and togetherness, we would be deeply honoured by your presence to bless them, share in our happiness, and make this evening truly unforgettable.
+              As we begin our journey of love and togetherness, we would be deeply honoured by your presence to bless us, share in our happiness, and make this evening truly unforgettable.
             </p>
           </div>
         </Reveal>
