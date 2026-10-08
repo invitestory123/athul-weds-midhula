@@ -71,8 +71,8 @@ export function Opener({ onOpen }: { onOpen: () => void }) {
               <span className="font-script text-gold/80 mx-2 text-3xl font-normal">&amp;</span>
               {wedding.bride.name}
             </h1>
-            <p className="text-ivory/60 mt-2 text-[0.65rem] tracking-[0.3em] uppercase">
-              December 2026
+            <p className="text-ivory/70 mt-2 text-[0.65rem] tracking-[0.3em] uppercase">
+              06 December 2026
             </p>
             <span className="rule-gold mt-4 w-32" />
 

@@ -67,34 +67,21 @@ export function Couple() {
                     Son of {wedding.groom.parents}
                   </div>
 
-                  <span className="rule-gold my-4 w-24" />
+                  {/* Contact */}
+                  <a
+                    href={`tel:${wedding.groom.phone}`}
+                    className="text-primary hover:text-gold mt-3 inline-flex items-center gap-1.5 text-xs font-medium transition-colors"
+                  >
+                    <Phone className="text-gold h-3.5 w-3.5" />
+                    <span>Ph: {wedding.groom.phoneDisplay}</span>
+                  </a>
 
-                  {/* Lineage & Grandparents from card */}
-                  <div className="w-full rounded-xl bg-secondary/50 p-3.5 text-center text-xs space-y-1.5 text-foreground/80">
-                    <p className="text-[0.62rem] uppercase tracking-wider text-muted-foreground font-medium">
-                      Grandson of
-                    </p>
-                    <p className="leading-snug">
-                      Late. Shri. Unnimadhavan Kidavu &amp; Smt. Sathyavathi Amma
-                    </p>
-                    <p className="leading-snug">
-                      Late Shri. Padmanabha Kurup &amp; Smt. Janaki Amma
-                    </p>
-                  </div>
-
-                  {/* Residence & Contact */}
-                  <div className="mt-4 flex flex-col items-center gap-1.5 text-xs text-muted-foreground">
+                  {/* Residence */}
+                  <div className="mt-3 flex flex-col items-center gap-1.5 text-xs text-muted-foreground">
                     <p className="flex items-center gap-1.5 text-center">
                       <MapPin className="text-gold h-3.5 w-3.5 shrink-0" />
                       <span>{wedding.groom.address}</span>
                     </p>
-                    <a
-                      href={`tel:${wedding.groom.phone}`}
-                      className="text-primary hover:text-gold mt-1 inline-flex items-center gap-1.5 font-medium transition-colors"
-                    >
-                      <Phone className="h-3 w-3" />
-                      <span>Ph: {wedding.groom.phoneDisplay}</span>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -141,14 +128,8 @@ export function Couple() {
                     Daughter of {wedding.bride.parents}
                   </div>
 
-                  <span className="rule-gold my-4 w-24" />
-
-                  <p className="text-foreground/75 text-sm leading-relaxed px-2">
-                    Stepping into a lifetime of love, warmth, and shared happiness alongside Athul.
-                  </p>
-
                   {/* Residence */}
-                  <div className="mt-4 flex flex-col items-center gap-1.5 text-xs text-muted-foreground">
+                  <div className="mt-3 flex flex-col items-center gap-1.5 text-xs text-muted-foreground">
                     <p className="flex items-center gap-1.5 text-center">
                       <MapPin className="text-gold h-3.5 w-3.5 shrink-0" />
                       <span>{wedding.bride.address}</span>

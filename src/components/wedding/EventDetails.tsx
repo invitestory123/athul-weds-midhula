@@ -1,4 +1,4 @@
-import { CalendarPlus, Clock, MapPin, Navigation, Sparkles } from "lucide-react";
+import { CalendarPlus, Clock, Heart, MapPin, Navigation, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { wedding } from "./data";
@@ -53,6 +53,16 @@ export function EventDetails() {
           <p className="text-muted-foreground mx-auto mt-2 text-xs tracking-wider uppercase">
             Two days of sacred traditions and joy
           </p>
+        </Reveal>
+
+        {/* Invitation Quote Card */}
+        <Reveal delay={0.08} className="mt-7">
+          <div className="bg-card/85 border-gold/30 shadow-luxe relative overflow-hidden rounded-[1.75rem] border p-6 text-center backdrop-blur-sm">
+            <Heart className="mx-auto h-4 w-4 fill-gold text-gold" />
+            <p className="text-foreground/85 font-serif-luxe italic mt-3 text-sm sm:text-base leading-relaxed px-1 font-normal">
+              As the couple begins their journey of love and togetherness, we would be deeply honoured by your presence to bless them, share in our happiness, and make this evening truly unforgettable.
+            </p>
+          </div>
         </Reveal>
 
         {/* Tab Switcher */}
