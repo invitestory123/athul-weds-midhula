@@ -67,7 +67,7 @@ export function Footer() {
                 <span>Call: {wedding.hosts.phoneDisplay}</span>
               </a>
               <a
-                href={`https://wa.me/91${wedding.hosts.phone}?text=Heartiest%20congratulations%20on%20Athul%20and%20Midhula's%20wedding%20reception!`}
+                href={`https://wa.me/91${wedding.hosts.phone}?text=Hi`}
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-600/20 px-4 py-2.5 text-xs text-emerald-200 hover:bg-emerald-600/30 transition-colors"
